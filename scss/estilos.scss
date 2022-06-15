@@ -1,0 +1,22 @@
+@import "./ajustes";
+@import "./responsive";
+
+.footerContainer {
+    display: flex;
+    background-color: rgb(30, 226, 63);
+    color: black;
+    font-family: arial;
+    @include responsive(pc){
+        flex-direction: row;
+    }
+    @include responsive(tablet){
+        flex-direction: row;        
+    }
+    @include responsive(mobile){
+        flex-direction: row;       
+    }
+}
+
+
+
+

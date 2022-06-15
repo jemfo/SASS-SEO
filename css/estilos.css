@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 50px; }
+
+div {
+  margin-bottom: 30px; }
+
+/* map */
+.container--anchoPagXl {
+  width: 100%;
+  background-color: aqua;
+  height: 200px;
+  color: #bb2854;
+  font-size: 25px;
+  font-family: arial; }
+
+.container--anchoPagL {
+  width: 80%;
+  background-color: aqua;
+  height: 200px;
+  color: #bb2854;
+  font-size: 25px;
+  font-family: arial; }
+
+.container--anchoPagM {
+  width: 60%;
+  background-color: aqua;
+  height: 200px;
+  color: #bb2854;
+  font-size: 25px;
+  font-family: arial; }
+
+.container--anchoPagS {
+  width: 40%;
+  background-color: aqua;
+  height: 200px;
+  color: #bb2854;
+  font-size: 25px;
+  font-family: arial; }
+
+.container--anchoPagXs {
+  width: 20%;
+  background-color: aqua;
+  height: 200px;
+  color: #bb2854;
+  font-size: 25px;
+  font-family: arial; }
+
+.footerContainer {
+  display: flex;
+  background-color: #1ee23f;
+  color: black;
+  font-family: arial; }
+  @media (max-width: 1400px) {
+    .footerContainer {
+      flex-direction: row; } }
+  @media (max-width: 768px) {
+    .footerContainer {
+      flex-direction: row; } }
+  @media (max-width: 425px) {
+    .footerContainer {
+      flex-direction: row; } }

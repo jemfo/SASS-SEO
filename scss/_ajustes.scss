@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+div{
+    margin-bottom: 30px;
+}
+
+/* map */
+$anchoGral: (
+    anchoPagXl: 100%,
+    anchoPagL: 80%,
+    anchoPagM: 60%,
+    anchoPagS: 40%,
+    anchoPagXs: 20%,
+);
+
+@each $medida, $porcentaje in $anchoGral {
+    .container--#{$medida} {
+        width: $porcentaje;
+        background-color: aqua;
+        height: 200px;
+        color: rgb(187, 40, 84);
+        font-size: 25px;
+        font-family: arial;
+    }  
+}
